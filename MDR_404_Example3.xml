@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MessageInfo xmlns="urn:hl7-org:v3">
+		<MessageId>486d4422-762b-407a-8c09-98b3895295d1</MessageId>
+		<DateSent>2014-09-15T13:00:00</DateSent>
+	</MessageInfo>
+	<id root="486d4422-762b-407a-8c09-98b3895295d1"/>
+	<code code="18749-2" codeSystemName="LOINC" displayName="EMG-ENG"/>
+	<text></text>
+	<statusCode code="3"/>
+	<confidentialityCode code="0"/>
+	<storageCode code="9" displayName="PDF"/>
+	<copyTime value="201409140000"/>
+	<authenticator>
+		<time value="20140914"/>
+		<AssignedPerson>
+			<assignedPerson>
+				<name>
+					<prefix/>
+					<family>מדהלה</family>
+					<given>דניאל</given>
+				</name>
+				<license>
+					<code code="545465"/>
+				</license>
+			</assignedPerson>
+		</AssignedPerson>
+	</authenticator>
+	<author>
+		<assignedAuthor>
+			<code code="404"/>
+		</assignedAuthor>
+	</author>
+	<custodian>
+		<assignedCustodian>
+			<Organization>
+				<id root="997"/>
+				<code code="7830"/>
+			</Organization>
+		</assignedCustodian>
+	</custodian>
+	<subject>
+		<subjectRole classCode="PAT">
+			<code code="2468246824" codeSystem="1"/>
+			<documentSubject>
+				<name>
+					<family>קסלר</family>
+					<given>עודד</given>
+					<suffix/>
+				</name>
+				<birthTime value="20120101"/>
+			</documentSubject>
+		</subjectRole>
+	</subject>
+	<componentOf>
+		<encounterEvent>
+			<id/>
+			<code code="40478301706316"/>
+			<effectiveTime value="20140914"/>
+		</encounterEvent>
+	</componentOf>
+	<informationRecipient>
+		<AssignedPerson>
+			<code code="1" displayName="רפואה"/>
+			<assignedPerson>
+				<name>
+					<prefix/>
+					<family>כהן</family>
+					<given>שמעון</given>
+				</name>
+				<license>
+					<code code="12345"/>
+				</license>
+			</assignedPerson>
+		</AssignedPerson>
+		<AssignedCustodian>
+			<Organization>
+				<id assigningAuthorityName=" פינסקר" extension="2061"/>
+			</Organization>
+		</AssignedCustodian>
+	</informationRecipient>
+	<inFulfillmentOf>
+		<order>
+			<id extension="39999000565"/>
+			<effectiveTime value="20140901"/>
+			<performer>	
+				<AssignedPerson>
+					<code code="1" displayName="רפואה"/>
+					<assignedPerson>
+						<name>
+							<prefix/>
+							<family>כהן</family>
+							<given>שמעון</given>
+						</name>
+						<license>
+							 <code code="12345"/>
+						</license>
+					</assignedPerson>
+				</AssignedPerson>
+				<AssignedCustodian>
+					<Organization>
+						<id assigningAuthorityName=" פינסקר" extension="2061"/>
+					</Organization>
+				</AssignedCustodian>
+			</performer>
+		</order>
+	</inFulfillmentOf>
+	<priority code="1000" displayName="בדיקה תקינה"/>
+</ClinicalDocument>

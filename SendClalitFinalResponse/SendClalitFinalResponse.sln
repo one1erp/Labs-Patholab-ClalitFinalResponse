@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patholab_Common", "..\..\Patholab_Common\Patholab_Common.csproj", "{A60242B9-5382-4A90-91F8-F390DA706AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendClalitFinalResponse", "SendClalitFinalResponse.csproj", "{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60242B9-5382-4A90-91F8-F390DA706AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF167ABB-B4D7-40ED-AE37-6A2F709186B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
